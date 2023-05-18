@@ -54,13 +54,13 @@ const questions = [
     {
         type: 'confirm',
         message: 'Did you collaborate with anyone?',
-        name: 'collab'
+        name: 'collab',
+        default: false
     },
     {
         type: 'input',
         message: 'Who did you work with?',
         name: 'teammates',
-        default: false
         // make it so it only asks this if collab is true
     },
     {
