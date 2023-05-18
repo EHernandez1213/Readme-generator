@@ -11,6 +11,16 @@ const questions = [
     },
     {
         type: 'input',
+        message: 'What is your name?',
+        name: 'userName'
+    },
+    {
+        type: 'input',
+        message: 'What year is it?',
+        name: 'year'
+    },
+    {
+        type: 'input',
         message: 'Why did you build this project?',
         name: 'motivation'
     },
@@ -27,7 +37,8 @@ const questions = [
     {
         type: 'confirm',
         message: 'Is installation required?',
-        name: 'install'
+        name: 'install',
+        default: false
     },
     {
         type: 'input',
@@ -48,13 +59,15 @@ const questions = [
     {
         type: 'input',
         message: 'Who did you work with?',
-        name: 'teammates'
+        name: 'teammates',
+        default: false
         // make it so it only asks this if collab is true
     },
     {
         type: 'confirm',
         message: 'Did you use any third party assets?',
-        name: 'thirdPartyAssets'
+        name: 'thirdPartyAssets',
+        default: false
     },
     {
         type: 'input',
