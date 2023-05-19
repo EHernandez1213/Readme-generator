@@ -19,13 +19,13 @@ function renderLicenseLink(license) {
   };
 };
 
-function renderCreditsLink(collab, thirdPartyAssets) {
-  if (collab === true || thirdPartyAssets === true) {
-    return `[Credits](#credits)`;
-  } else {
-    return '';
-  };
-};
+// function renderCreditsLink(collab, thirdPartyAssets) {
+//   if (collab === true || thirdPartyAssets === true) {
+//     return `[Credits](#credits)`;
+//   } else {
+//     return '';
+//   };
+// };
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderInstallationSection(install, intstallInstructions) {
@@ -57,7 +57,11 @@ function renderCreditsSection(collab, teammates, thirdPartyAssets, attributions)
   Attributions: ${attributions}
   `;
   } else {
-    return '';
+    return `
+  ## Credits
+  
+  N/A
+  `;
   };
 };
 
@@ -124,7 +128,7 @@ function generateMarkdown(data) {
 
   [Usage](#usage)
   
-  ${renderCreditsLink(data.collab, data.thirdPartyAssets)}
+  [Credits](#credits)
 
   ${renderLicenseLink(data.license)}
 

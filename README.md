@@ -2,9 +2,9 @@
 
   ## Description
 
-  This project was created because to have readme files generated quickly.
-  What this does is it gennerates readme files from prompted questions.
-  What I learned from project was how to use npms, use the require functions, and create files with fs.
+  This project was created because I wanted to create readme files faster.
+  What this does is it prompts the user with questions and creates a readme from the answers.
+  What I learned from project was how to use npms using 'require', how to generate files with node.js and how to create templates with template literals.
 
   ## Table of Contents
 
@@ -12,19 +12,23 @@
 
   [Usage](#usage)
   
-  
+  [Credits](#credits)
 
   [License](#license)
 
   ## Installation
 
-  in a command prompt type npm inquirer@8.2.4
+  In a terminal, navigate to where this program is store. Then type 'npm install inquirer@8.2.4'.
 
   ## Usage
 
-  In a terminal, navigate to the folder of this file. Install inquirer at 8.2.4. Then type 'node index.js' to initiate this file. Answer the questions.
+  In a terminal, navigate to to folder where this script is stored. Follow the directions for the installation and then type 'node index.js'. Afterwards, you will be prompted questions which you will answer. Once completed a readme file will be generated.
 
 
+  ## Credits
+
+  Attributions: inquirer 8.2.4
+  
 
 
   ## License
