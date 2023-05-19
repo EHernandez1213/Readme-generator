@@ -60,19 +60,18 @@ function renderCreditsSection(collab, teammates, thirdPartyAssets, attributions)
     return `
   ## Credits
   
-  N/A
-  `;
+  N/A`;
   };
 };
 
-function renderLicenseSection(license, year, userName) {
+function renderLicenseSection(license, year, name) {
   if (license === 'unlicense') {
     return '';
   } else if (license === 'MIT') {
     return `
   ## License
     
-  Copyright (C) ${year} ${userName}
+  Copyright (C) ${year} ${name}
     
   Permission is hereby granted, free of charge, to any person obtaining a copy of this software and 
   associated documentation files (the "Software"), to deal in the Software without restriction, 
@@ -94,7 +93,7 @@ function renderLicenseSection(license, year, userName) {
     return `
   ## License
     
-  Copyright (C) ${year} ${userName}
+  Copyright (C) ${year} ${name}
 
   This program is free software: you can redistribute it and/or modify
    it under the terms of the GNU General Public License as published by
@@ -132,6 +131,14 @@ function generateMarkdown(data) {
 
   ${renderLicenseLink(data.license)}
 
+  [Badge](#badge)
+
+  [Contribute](#contribute)
+
+  [Test](#test)
+
+  [Questions](#questions)
+
   ## Installation
 
   ${renderInstallationSection(data.install, data.intstallInstructions)}
@@ -141,12 +148,23 @@ function generateMarkdown(data) {
   ${data.usage}
 
 ${renderCreditsSection(data.collab, data.teammates, data.thirdPartyAssets, data.attributions)}
-
-${renderLicenseSection(data.license, data.year, data.userName)}
+${renderLicenseSection(data.license, data.year, data.name)}
 
   ## Badge
 
-${renderLicenseBadge(data.license, data.year, data.userName)}
+${renderLicenseBadge(data.license)}
+
+  ## Contribute
+
+  ${data.contributionInstructions}
+
+  ## Test
+
+  ${data.testInstructions}
+
+  ##Questions
+
+  If you have any questions you can reach me at ${data.email} or my Github account, ${data.userName}
 `;
 }
 

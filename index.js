@@ -12,7 +12,17 @@ const questions = [
     {
         type: 'input',
         message: 'What is your name?',
+        name: 'name'
+    },
+    {
+        type: 'input',
+        message: 'What is your Github username?',
         name: 'userName'
+    },
+    {
+        type: 'input',
+        message: 'What is your email?',
+        name: 'email'
     },
     {
         type: 'input',
@@ -80,7 +90,16 @@ const questions = [
         message: 'Choose a license',
         choices: ['MIT', 'GPL3.0', 'unlicense'],
         name: 'license'
-
+    },
+    {
+        type: 'input',
+        message: 'How can someone contribute?',
+        name: 'contributionInstructions',
+    },
+    {
+        type: 'input',
+        message: 'How can someone test this project?',
+        name: 'testInstructions'
     }
 ];
 

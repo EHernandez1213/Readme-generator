@@ -2,9 +2,9 @@
 
   ## Description
 
-  This project was created because I wanted to create readme files faster.
-  What this does is it prompts the user with questions and creates a readme from the answers.
-  What I learned from project was how to use npms using 'require', how to generate files with node.js and how to create templates with template literals.
+  This project was created because I wanted a faster way to generate readme files.
+  What this does is it creates a readme file from user inputs for a prompt.
+  What I learned from project was how to use npms, hot to create files, and how to create a template.
 
   ## Table of Contents
 
@@ -16,20 +16,27 @@
 
   [License](#license)
 
+  [Badge](#badge)
+
+  [Contribute](#contribute)
+
+  [Test](#test)
+
+  [Questions](#questions)
+
   ## Installation
 
-  In a terminal, navigate to where this program is store. Then type 'npm install inquirer@8.2.4'.
+  Navigate to this file in a terminal and input 'npm install inquirer@8.2.4'.
 
   ## Usage
 
-  In a terminal, navigate to to folder where this script is stored. Follow the directions for the installation and then type 'node index.js'. Afterwards, you will be prompted questions which you will answer. Once completed a readme file will be generated.
+  In a terminal navigate to this file. Then run 'node index.js' to initiate the script. Answer all the qustions that are prompted and hit enter when done inputing them. Once all the questions are answered a readme file will be generated.
 
 
   ## Credits
 
-  Attributions: inquirer 8.2.4
+  Attributions: inquirer version 8.2.4
   
-
 
   ## License
     
@@ -55,3 +62,15 @@
   ## Badge
 
 ![License](https://img.shields.io/badge/License-MIT-green)
+
+  ## Contribute
+
+  There is currently no form of contribution.
+
+  ## Test
+
+  There is currently no form of testing this project
+
+  ##Questions
+
+  If you have any questions you can reach me at elenilson.hernandez1213@gmail.com or my Github account, EHernandez1213
