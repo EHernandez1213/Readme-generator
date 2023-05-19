@@ -2,9 +2,9 @@
 
   ## Description
 
-  This project was created because I wanted a faster way to generate readme files.
-  What this does is it creates a readme file from user inputs for a prompt.
-  What I learned from project was how to use npms, hot to create files, and how to create a template.
+  This project was created because I want a faster way to create readme files.
+  What this does is it creates a readme file with answers from a prompt.
+  What I learned from project was how to generate files with fs, how to use other scripts in my scripts using require, and how to build a template using template literals.
 
   ## Table of Contents
 
@@ -26,11 +26,12 @@
 
   ## Installation
 
-  Navigate to this file in a terminal and input 'npm install inquirer@8.2.4'.
+  In a terminal, navigate to the folder this file is in. Then, in the terminal, run 'npm install inquirer@8.2.4'.
 
   ## Usage
 
-  In a terminal navigate to this file. Then run 'node index.js' to initiate the script. Answer all the qustions that are prompted and hit enter when done inputing them. Once all the questions are answered a readme file will be generated.
+  Navigate to the folder this file is in. Run 'node index.js'. You will be prompted with questions. Write your response to the questions and hit enter after you finish the response. Once all the questions are answered a readme file will be generated.
+  Video Demonstration: https://drive.google.com/file/d/17isahU-qKdcwS7vmKRdGDzhvM-AoDtn6/view
 
 
   ## Credits
@@ -65,12 +66,12 @@
 
   ## Contribute
 
-  There is currently no form of contribution.
+  There is no current way for someone to contribute.
 
   ## Test
 
-  There is currently no form of testing this project
+  There is no current way for someone to test this project.
 
-  ##Questions
+  ## Questions
 
   If you have any questions you can reach me at elenilson.hernandez1213@gmail.com or my Github account, EHernandez1213
