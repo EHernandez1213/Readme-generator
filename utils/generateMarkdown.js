@@ -165,7 +165,7 @@ ${renderLicenseBadge(data.license)}
 
   ## Questions
 
-  If you have any questions you can reach me at ${data.email} or my Github account, ${data.userName}
+  If you have any questions you can reach me at ${data.email} or my Github account, https://github.com/${data.userName}
 `;
 }
 
