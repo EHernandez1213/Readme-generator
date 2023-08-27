@@ -1,10 +1,10 @@
-# Readme Generator
+# Book Search Engine
 
   ## Description
 
-  This project was created because I want a faster way to create readme files.
-  What this does is it creates a readme file with answers from a prompt.
-  What I learned from project was how to generate files with fs, how to use other scripts in my scripts using require, and how to build a template using template literals.
+  This project was created because I wanted to create a book search engine using graphql.
+  What this does is it uses graphql to make queries and mutations on the database to add users, login users, save and remove books.
+  What I learned from project was how to use graphql to make queries and mutations and how to use apollo server to connect the backend to the front end.
 
   ## Table of Contents
 
@@ -26,18 +26,17 @@
 
   ## Installation
 
-  In a terminal, navigate to the folder this file is in. Then, in the terminal, run 'npm install inquirer@8.2.4'.
+  use 'npm install' in the terminal the cd into the client an run 'npm install'. Then cd out of the client and cd into the server and run 'npm install'.
 
   ## Usage
 
-  Navigate to the folder this file is in. Run 'node index.js'. You will be prompted with questions. Write your response to the questions and hit enter after you finish the response. Once all the questions are answered a readme file will be generated.
+  when opening the page you can immediately search for a book or click the 'login/sign up' on the top right. If you already have an account you can enter your email and password and click submit to login. If you want to create an account you can click the 'Sign Up' instead. For the sign up you need to input a username, email and password then click submit. After that you can go back to the login to sign in. To search for a book you can enter one in the search bar and click the submit search to search for it. You can then click save this book to save the book to your list. To see your list you can click 'See Your Books' to view it. There you can click the 'Delete this Book!' to remove it from your list. 
   Video Demonstration: https://drive.google.com/file/d/17isahU-qKdcwS7vmKRdGDzhvM-AoDtn6/view
 
 
   ## Credits
-
-  Attributions: inquirer version 8.2.4
   
+  N/A
 
   ## License
     
@@ -66,11 +65,11 @@
 
   ## Contribute
 
-  There is no current way for someone to contribute.
+  There is currently no way to contribute
 
   ## Test
 
-  There is no current way for someone to test this project.
+  There is currently no way to test this.
 
   ## Questions
 
